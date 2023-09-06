@@ -1,1 +1,1 @@
-# Practical_C_plus_plus
+ІСД-22 Гришко Карина

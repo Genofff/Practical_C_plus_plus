@@ -27,5 +27,5 @@ cout << "Enter a three-digit positive number: ";
     if (x2 > 3){d++;}
     if (x3 > 3){d++;}
 
-    cout << "Number of digits greater than 3: " << d;
+    cout << "\nNumber of digits greater than 3: " << d;
 }

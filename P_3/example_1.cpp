@@ -6,14 +6,12 @@ int main()
 {
     int a, x, x2, x3; // a - ;x,x2,x3 -
     int d = 0;// кількість чисел, які більше за 3 
-    char i;
-    double c;
 
 positive_number: 
 cout << "Enter a three-digit positive number: ";
     cin >> a;
 
-    if (a < 99 || a < 0 || a > 999)
+    if (a < 99 || a > 999)
     {
         cout << "The number you dialed is not a 3-digit number or positive number. Try writing another one number\n";
         goto positive_number;

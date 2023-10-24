@@ -17,5 +17,4 @@ int main() {
         cout << "Try again \n";
         goto enter_number;
     }
-    return 0;
 }
